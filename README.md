@@ -3,7 +3,7 @@ No cree una clase para la App, porque estoy asumiendo que los usuarios justament
 
 Un usuario puede tener 0 o * chats y un chat puede tener como miembros 0 o * usuarios.
 
-Al cada Chat ser privado, las personas las cuales no pertenecen al chat unicamente podran saber quien creo el chat y sus miembros. Mientras tanto solo los usuario que pertenecen a dicho chat podran ver los mensajes y añadir miembros. Si bien esto puede romper el principio de diseño de Tell, don't ask, crei que seria lo apropiado para mantener la consigna de que los chats son privados.
+Al cada Chat ser privado, las personas las cuales no pertenecen a un chat solo podran saber quien lo creo y sus miembros. Mientras tanto, los usuario que pertenecen a dicho chat si podran ver los mensajes y añadir miembros. Si bien el que se interactue con los chats mediante los usuarios puede romper el principio de diseño de Tell, don't ask, crei que seria lo apropiado para mantener la consigna de que los chats son privados.
 
 Los datos de los mensajes pueden ser accedido por cualquiera, al los usuarios poder hacer lo que quieran con los mensajes de cada chat
 <div align="center">
